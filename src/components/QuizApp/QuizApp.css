@@ -1,3 +1,37 @@
 .quiz-card {
-    border: 2px solid red;
+    border: 5px solid rgb(206, 206, 206);
+    padding: 1rem;
+    border-radius: 13px;
+    background-color: #E9E9E9;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.quiz-card h2 {
+    font-size: clamp(2.2rem, 4vw, 2.9rem);
+}
+.quiz-card h2 span {
+    font-size: clac(1.6rem +  1vw);
+}
+.quiz-card img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.quiz-card ul {
+    margin: 0;
+    padding: 0;
+}
+.quiz-card li {
+    font-size: 100%;
+    background-color: #fff;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 0.7rem;
+    transition: font-size 0.5s ease-in-out;
+}
+.quiz-card li:hover{
+    font-size: 120%;
+    background-color: #F4F6E3;
+    transition:
+        font-size 0.3s ease-in-out,
+        background-color 0.5s ease-in-out;
 }

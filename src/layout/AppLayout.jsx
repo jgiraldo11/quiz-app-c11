@@ -5,11 +5,11 @@ import Footer from "./Footer";
 export default function AppLayout({ children }) {
 
     return (
-        <>
-        <NavMenu />
+        <div id="main-container">
+        {/* <NavMenu /> */}
         {children}
         <Footer />
-        </>
+        </div>
 
     )
 }
